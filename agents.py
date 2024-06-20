@@ -3,7 +3,7 @@ from langchain_groq import ChatGroq
 
 llm=ChatGroq(temperature=0,
              model_name="llama3-70b-8192",
-             api_key="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")
+             api_key="gsk_##################################")
 
 planner = Agent(
     llm=llm,
